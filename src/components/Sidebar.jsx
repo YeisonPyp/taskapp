@@ -21,14 +21,6 @@ function Sidebar({ setActiveComponent }) {
             Ver Tareas
           </button>
         </li>
-        <li>
-          <button
-            onClick={() => setActiveComponent('taskStats')}
-            className="block text-left w-full py-2 px-4 rounded hover:bg-blue-700"
-          >
-            Ver Estadísticas
-          </button>
-        </li>
       </ul>
     </div>
   );
